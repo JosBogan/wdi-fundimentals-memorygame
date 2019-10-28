@@ -59,10 +59,47 @@ p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
+} 
+
+button {
+	font-size: 18px;
+	background-color: #00A6B3;
+	border-radius: 2px;
+	border: none;
+	padding: 8px 15px;
+	cursor: pointer;
+	color: #FFFFFF;
+	display:inline-block;
+	transition: all 0.2s;
+}
+
+button:hover {
+	background-color: #00858f;
+}
+
+.align {
+	display: inline-block;
+	width: 20%;
+}
+
+.align-1 {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.align-2 {
+	text-align: left;
+	margin-left: 20px;
+}
+
+.score {
+	color: #F15B31;
+	font-weight: 600;
+	font-size: 30px;
 }
 
 img {
-	margin: 40px 8px;
+	margin: 40px 8px 0px 8px;
 }
 
 footer {
